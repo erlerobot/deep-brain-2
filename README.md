@@ -1,6 +1,8 @@
 Deep Learning with Erle-Brain 2
 ====================
 
+![](files/deep-brain.png)
+
 This script uses the ImageNet Classification with Deep Convolutional Neural Networks (http://www.cs.toronto.edu/~hinton/absps/imagenet.pdf) implemented and trained at https://github.com/jetpacapp/DeepBeliefSDK to classify objects using a multilayer deep neural network.
 
 ### Try it out
@@ -25,6 +27,8 @@ make GEMM=eigen TARGET=pi2
 - `deep_erle-brain2_url.sh`: Use a URL to fetch images from the web.
 
 Example:
+![](files/cat.jpg)
+
 ```
 root@erle-brain-2:~/deep-brain-2# ./deep_erle-brain2_file.sh files/cat.jpg 
 ************************
